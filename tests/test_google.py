@@ -12,4 +12,4 @@ class TestGoogleSearch():
     def test_page_404(self):
         response = requests.get('https://www.google.com/qwe')
         
-        assert response.status_code == 200
+        assert response.status_code == 404
